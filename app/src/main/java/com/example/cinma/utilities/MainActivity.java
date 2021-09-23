@@ -1,7 +1,8 @@
-package com.example.cinma;
+package com.example.cinma.utilities;
 
 import android.os.Bundle;
 
+import com.example.cinma.R;
 import com.google.android.material.snackbar.Snackbar;
 
 import androidx.appcompat.app.AppCompatActivity;

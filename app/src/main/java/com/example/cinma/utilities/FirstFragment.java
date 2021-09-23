@@ -1,4 +1,4 @@
-package com.example.cinma;
+package com.example.cinma.utilities;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -28,6 +28,13 @@ public class FirstFragment extends Fragment {
 
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
+
+        binding.btnEnvoyer.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+            }
+        });
     }
 
     @Override
